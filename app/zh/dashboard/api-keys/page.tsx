@@ -1,0 +1,3 @@
+import { KeyRound, Plus } from 'lucide-react'
+import { Button } from '@/components/ui'
+export default function ChineseApiKeys(){return <div><p className='text-sm text-[var(--muted)]'>工作区 / API 密钥</p><div className='mt-1 flex items-center justify-between'><h1 className='text-3xl font-semibold'>API 密钥</h1><Button><Plus size={16}/> 创建密钥</Button></div><div className='mt-8 rounded-xl border border-[var(--line)] bg-white p-10 text-center'><KeyRound className='mx-auto text-teal' size={30}/><h2 className='mt-4 font-semibold'>还没有 API 密钥</h2><p className='mt-2 text-sm text-[var(--muted)]'>准备将 SIGNAL 连接到你的产品时，再创建密钥。</p></div></div>}
