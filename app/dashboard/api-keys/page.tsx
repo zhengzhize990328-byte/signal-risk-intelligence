@@ -1,0 +1,3 @@
+import { KeyRound, Plus } from 'lucide-react'
+import { Button } from '@/components/ui'
+export default function ApiKeys(){return <div><p className="text-sm text-[var(--muted)]">Workspace / API keys</p><div className="mt-1 flex items-center justify-between"><h1 className="text-3xl font-semibold">API keys</h1><Button><Plus size={16}/> Create key</Button></div><div className="mt-8 rounded-xl border border-[var(--line)] bg-white p-10 text-center"><KeyRound className="mx-auto text-teal" size={30}/><h2 className="mt-4 font-semibold">No API keys yet</h2><p className="mt-2 text-sm text-[var(--muted)]">Create a key when you’re ready to connect SIGNAL to your product.</p></div></div>}
